@@ -12,14 +12,14 @@ const DonutChart = () => {
         }
     }
 
-return (
-    <Chart
-        options={{ ...options, labels: mockData.labels }}
-        series={mockData.series}
-        type="donut"
-        height="240"
-    />
-);
+    return (
+        <Chart
+            options={{ ...options, labels: mockData.labels }}
+            series={mockData.series}
+            type="donut"
+            height="240"
+        />
+    );
 }
 
 
